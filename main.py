@@ -1,4 +1,6 @@
-import encode
-import decode
-encode.encode(input("String to encode: "))
-decode.decode(input("String to decode: "))
+from both import doall
+while 1:
+  try:
+    doall()
+  except KeyboardInterrupt:
+    exit('\nKeyboardInterrupt quit')
